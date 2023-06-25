@@ -19,11 +19,12 @@ const Common = ({
                             <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                                 <h1> 
                                      {name}
-                                     {isCompName ? <strong className="brand-name"> {compName}</strong> : ""}
+                                     {isCompName ? <strong className=""> {compName}</strong> : ""}
                                     
                                 </h1>
                                 <h2 className="my-3">
-                                    We are the team of talented developer making websites
+                                    Kami Adalah Platform yang dapat menghubungkan mentor dan mentee secara online untuk berkarir
+                                    melalui mentoring dan bimbingan dibagian design grafis
                                 </h2>
                                 <div className="mt-3">
                                     <NavLink to={visit} className="btn-get-started ">

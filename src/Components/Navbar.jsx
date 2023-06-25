@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
                 <NavLink  exact className="navbar-brand" to="/">
-                  Company Name
+                  Develove
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -39,18 +39,23 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/services">
-                        Services
+                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/about">
+                        Tentang Kami
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink activeClassName="menu_active"  exact className="nav-link" to="/about">
-                        About
+                        Testimoni
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/about">
+                        Admin
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink activeClassName="menu_active"  exact className="nav-link" to="/contact">
-                        Contact
+                        Hubungi Kami
                       </NavLink>
                     </li>
                   </ul>

@@ -6,12 +6,12 @@ const Home = () => {
     return (
         <>
             <Common 
-                name='Grow your business with' 
+                name='Mari Membuat Design Anda Menjadi Lebih Baik' 
                 imgsrc={home} 
                 isCompName={true}
-                compName="Company Name"
+                compName=""
                 visit='/services' 
-                btnname="Get Started" 
+                btnname="Download App" 
             />
         </>
     )
